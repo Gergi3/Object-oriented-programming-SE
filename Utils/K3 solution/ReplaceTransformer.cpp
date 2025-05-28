@@ -54,7 +54,7 @@ ReplaceTransformer& ReplaceTransformer::operator=(const ReplaceTransformer& othe
     return *this;
 }
 
-ReplaceTransformer::ReplaceTransformer(ReplaceTransformer&& other) noexcept
+ReplaceTransformer::ReplaceTransformer(ReplaceTransformer&& other) noexcept : ArrayTransformer(std::move(other))
 {
     moveFrom(std::move(other));
 }
