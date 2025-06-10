@@ -22,5 +22,5 @@ void SwapTransformer::transform(int* arr, size_t size) const
 
 ArrayTransformer* SwapTransformer::clone() const
 {
-    return nullptr;
+    return new SwapTransformer(*this);
 }
