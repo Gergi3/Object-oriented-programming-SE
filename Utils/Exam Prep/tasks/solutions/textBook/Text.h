@@ -16,7 +16,7 @@ public:
 	Text(const char* text);
 	Text(const Text& other);
 	Text& operator=(const Text& other);
-	virtual ~Text();
+	virtual ~Text(); // too lazy to do big 6 sorry
 
 	static unsigned getNextID();
 
