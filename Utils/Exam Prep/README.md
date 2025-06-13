@@ -4,6 +4,7 @@
 - **Matrix (EASY)**
 - **Shop (EASY)**
 - **GrString (EASY)**
+- **TextBook (MIDDLE)**
 - **Sets (MIDDLE)**
 - **FJSON (MIDDLE)**
 - **PartialFunctions (MIDDLE)**
