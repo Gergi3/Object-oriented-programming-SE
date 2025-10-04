@@ -353,6 +353,8 @@ JediCollection readCollectionFromBinary(const char* fileName)
 
 	ifs.read((char*)&collection, sizeof(collection));
 
+	ifs.close();
+	
 	return collection;
 }
 
